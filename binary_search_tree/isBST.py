@@ -5,13 +5,6 @@ class node:
       self.data = data
       self.left = None
       self.right = None
-"""
-
-"""
-    function returns the min or max of the subtree
-    rooted at "root".
-
-    m - a flag to check ir min or max is returned
 
     using a list to simulate a Queue object:
     ----------------------------------------
@@ -30,7 +23,7 @@ class node:
 
           if we count #nodes compared for the min/max for an entire subtree, we would
           have ~ O(2*n) comparisions == O(n)
-          
+
      author: Manish Suthar
 """
 
