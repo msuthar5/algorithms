@@ -17,8 +17,7 @@ def bfs(matrix,i,j):
                 queue.append((node[0],node[1]-1,node[2]+1))
                 queue.append((node[0],node[1]+1,node[2]+1))
                 queue.append((node[0]+1,node[1],node[2]+1))
-
-        
+                
 def updateMatrix(matrix: List[List[int]]) -> List[List[int]]:
     for i in range(len(matrix)):
         for j in range(len(matrix[i])):
