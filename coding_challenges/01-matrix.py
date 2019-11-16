@@ -22,5 +22,5 @@ def updateMatrix(matrix: List[List[int]]) -> List[List[int]]:
     for i in range(len(matrix)):
         for j in range(len(matrix[i])):
             if matrix[i][j] != 0:
-                matrix[i][j] = self.bfs(matrix,i,j)
+                matrix[i][j] = bfs(matrix,i,j)
     return matrix
