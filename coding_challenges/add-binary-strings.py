@@ -1,5 +1,5 @@
 """
-hackerrank challenge #67 Add Binary Strings
+Leetcode challenge #67 Add Binary Strings
 """
 def addBinary(a: str, b: str) -> str:
     carry=0
