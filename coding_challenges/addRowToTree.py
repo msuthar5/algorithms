@@ -13,12 +13,12 @@ https://leetcode.com/problems/add-one-row-to-tree/
 def addNodeHelper(root,v,d):
     if root:
         if d==2:
-            lnode=TreeNode(v)
-            rnode=TreeNode(v)
-            lnode.left=root.left
-            rnode.right=root.right
-            root.left=lnode
-            root.right=rnode
+            left=root.left
+            right=root.right
+            root.left=TreeNode(v)
+            root.right=TreeNode(v)
+            root.left.left=left
+            root.right.right=right
         else:
             addNodeHelper(root.left,v,d-1)
             addNodeHelper(root.right,v,d-1)
