@@ -6,6 +6,9 @@ Find the shortest cost path from Grid[0][0] to Grid[M-1][N-1]
 ** While the exercise only requires finding SP to Grid[M-1][N-1]
 this solution finds the shortest path from Grid[0][0] to any location **
 
+96ms faster than 98.75% of submissions
+14.3 MB less than 75% of submissions
+
 Using dynamic Programming
 """
 def buildTable(grid,nrows,ncols):
